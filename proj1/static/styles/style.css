@@ -1,0 +1,178 @@
+/* all */
+html {
+   font-size: 24px;
+   
+}
+
+body {
+   margin: 0;
+   padding: 0;
+}
+.vladick {
+   background-color: #1a1a1a
+     
+}
+a {
+   color: #b0b0b0;
+}
+ 
+
+
+/* span+text */
+span {
+   font-style: italic;
+}
+
+
+.span2 {
+   font-style: normal;
+}
+.spam {
+   color: #e0e0e0;
+}
+.text{
+   color: #e0e0e0;
+}
+.spam1{
+   color: #e0e0e0
+}
+
+.ul { 
+   gap: 20px;
+   margin: 10px;
+   margin-right: 50px;
+}
+.conteiner>.border {
+   display: block;
+   padding: 10px;
+   border-style: solid;
+   border-width: 0.5px;
+   margin: 10px;
+   border-left: none;
+   border-right: none;
+   border-color: #e0e0e0;
+}
+
+.img {
+   display: block;
+   margin-left: 370px;
+} 
+.img2 {
+  width: 700px;
+   margin-left: 370px;
+
+}
+.card {
+   display: block;
+   padding: 10px;
+   border-style: solid;
+   border-width: 0.5px;
+   margin: 10px;
+   border-left: none;
+   border-right: none;
+   border-top: none;
+      border-color: #e0e0e0;
+      
+}
+h1 {
+   margin-left: 360px;
+}
+/* img */
+.conteiner>div>img {
+   width: 700px;
+}
+
+.conteiner>div>p {
+   display: flex;
+
+}
+/* верх.панель */
+.nav-conteiner {
+   display: flex;
+   justify-content: space-between;
+   background-color: #2b2b2b
+}
+
+.nav-conteiner>nav>ul {
+   display: flex;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   align-items: center;
+}
+
+.nav-conteiner>nav>ul>li>a {
+   display: block;
+   padding: 10px;
+   border-style: solid;
+   border-width: 0.5px;
+}
+
+.nav {
+   align-self: center;
+   margin: 10px;
+}
+
+/* бокова панель */
+.text {
+   padding-left: 15px;
+}
+
+.page {
+   display: flex;
+
+}
+
+.header {
+   width: 15%;
+   background-color:#262626
+
+}
+
+.section {
+   width: 85%;
+}
+
+.header>ol {
+   list-style: none;
+   border-bottom-style: solid;
+   border-width: 0.5px;
+   margin: 10px;
+   padding: 0;
+   padding-bottom: 10px;
+}
+
+.header>div {
+   width: 60%;
+   margin: 10px;
+   display: block;
+   margin: auto;
+}
+
+.header>div>img {
+   width: 60%;
+   margin: 10px;
+   display: block;
+   margin: auto;
+}
+
+.video-text {
+   color: #e0e0e0;
+   z-index: 2;
+}
+.video {
+   width: 100%;
+   margin-left: 20px;
+   margin-top:20px;
+   top: 0;
+   left: 0;
+   object-fit: cover;
+   z-index: 2;
+
+}
+video {
+   width: 95%; 
+}
+
+ 
+
